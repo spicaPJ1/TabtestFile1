@@ -17,6 +17,7 @@
 		05B96743181B2F880013CA5D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 05B96742181B2F880013CA5D /* Images.xcassets */; };
 		05FD31F91824AA1F00482982 /* MEMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 05FD31F81824AA1F00482982 /* MEMenuViewController.m */; };
 		3C2BAD09EE2C49E49647CACA /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C1A553B18F8E4C0B9DE357C8 /* libPods.a */; };
+		77455E6419B751BF0025D4BB /* ViewControllor.m in Sources */ = {isa = PBXBuildFile; fileRef = 77455E6319B751BF0025D4BB /* ViewControllor.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +36,8 @@
 		05B96749181B2F880013CA5D /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		05FD31F71824AA1F00482982 /* MEMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MEMenuViewController.h; sourceTree = "<group>"; };
 		05FD31F81824AA1F00482982 /* MEMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MEMenuViewController.m; sourceTree = "<group>"; };
+		77455E6219B751BF0025D4BB /* ViewControllor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewControllor.h; sourceTree = "<group>"; };
+		77455E6319B751BF0025D4BB /* ViewControllor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewControllor.m; sourceTree = "<group>"; };
 		7D84431ECB0A448DA7633FF7 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = ../Pods/Pods.xcconfig; sourceTree = "<group>"; };
 		C1A553B18F8E4C0B9DE357C8 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -88,6 +91,8 @@
 			isa = PBXGroup;
 			children = (
 				05B96742181B2F880013CA5D /* Images.xcassets */,
+				77455E6219B751BF0025D4BB /* ViewControllor.h */,
+				77455E6319B751BF0025D4BB /* ViewControllor.m */,
 				05B9673C181B2F880013CA5D /* Main.storyboard */,
 				05B96739181B2F880013CA5D /* MEAppDelegate.h */,
 				05B9673A181B2F880013CA5D /* MEAppDelegate.m */,
@@ -210,6 +215,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				77455E6419B751BF0025D4BB /* ViewControllor.m in Sources */,
 				05FD31F91824AA1F00482982 /* MEMenuViewController.m in Sources */,
 				05B9673B181B2F880013CA5D /* MEAppDelegate.m in Sources */,
 				05B96737181B2F880013CA5D /* main.m in Sources */,
